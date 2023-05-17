@@ -1,7 +1,12 @@
+import { Box, Button, Heading, Text } from "@chakra-ui/react";
+
 export default function App() {
   return (
-    <div>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero vel hic modi minima nulla dolor suscipit omnis aliquid est, fugiat earum placeat consectetur molestiae obcaecati, asperiores assumenda reprehenderit eum culpa.
-    </div>
+    <Box p='5'>
+      <Heading>Hello World</Heading>
+      <Text>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus quam ipsa consectetur delectus corporis excepturi sunt accusantium suscipit nulla reprehenderit, perferendis nemo quia ad ea deleniti ut nam pariatur nobis!</Text>
+      <br />
+      <Button>Get Started</Button>
+    </Box>
   );
 }
